@@ -1,3 +1,5 @@
+const dynasties = [
+    {
         name: "夏",
         time: "约公元前2070年 — 约公元前1600年",
         founder: "禹",
