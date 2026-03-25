@@ -111,9 +111,31 @@ header h1 {
     margin-bottom: 5px;
 }
 
-#dynasty-info p {
-    font-size: 1.1rem;
-    color: #444;
+#dynasty-events ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#dynasty-events li {
+    background: #fdf6e3;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 4px solid var(--secondary-color);
+}
+
+.final-quiz-nav-btn {
+    font-weight: bold;
+    border: 2px solid var(--white);
+}
+
+.final-quiz-nav-btn:hover {
+    background-color: var(--primary-color) !important;
+}
+
+/* 优化弹窗滚动 */
+.modal-content {
+    max-height: 90vh;
 }
 
 .dynasty-image-container {
