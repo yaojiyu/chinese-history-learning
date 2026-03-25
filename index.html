@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国古代史——从夏到清 交互式学习</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>中国古代史——从夏到清 交互式学习</h1>
+    </header>
+    
+    <main>
+        <div class="timeline-container">
+            <div class="timeline" id="dynasty-timeline">
+                <!-- JavaScript 将会填充这些内容 -->
+            </div>
+        </div>
+        
+        <div class="content-card" id="content-display">
+            <div id="welcome-message">
+                <h2>请点击上方时间轴上的朝代开始学习</h2>
+                <p>探索从夏朝到清朝的辉煌历程</p>
+            </div>
+            <div id="dynasty-info" style="display:none;">
+                <h2 id="dynasty-name"></h2>
+                <div class="info-item">
+                    <span class="label">存续时间：</span>
+                    <span id="dynasty-time"></span>
+                </div>
+                <div class="info-item">
+                    <span class="label">建立者 & 都城：</span>
+                    <span id="dynasty-founder-capital"></span>
+                </div>
+                <div class="info-item">
+                    <span class="label">重要事件 / 制度：</span>
+                    <p id="dynasty-events"></p>
+                </div>
+                <div class="info-item">
+                    <span class="label">历史地位与影响：</span>
+                    <p id="dynasty-impact"></p>
+                </div>
+                <div class="actions">
+                    <button id="read-aloud-btn" class="audio-btn">🔊 朗读讲解</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>历史学科教学辅助材料 | 纯 HTML + CSS + JS 制作</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
